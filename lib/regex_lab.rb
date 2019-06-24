@@ -10,7 +10,7 @@ end
 
 def words_five_letters_long(text)
   text.match(/\A\w{5}\Z/)
-    # binding.pry
+  binding.pry
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
